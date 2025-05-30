@@ -22,7 +22,7 @@ final ThemeData lightThemeData = ThemeData(
   brightness: Brightness.light,
   colorSchemeSeed: Colors.blue,
   scaffoldBackgroundColor: Colors.white,
-  cardTheme: CardTheme(color: Colors.grey.shade100),
+  cardTheme: const CardTheme(color: Colors.grey.shade100),
   listTileTheme: const ListTileThemeData(iconColor: Colors.grey),
   sliderTheme: SliderThemeData(inactiveTrackColor: Colors.grey.shade300),
   iconTheme: const IconThemeData(color: Colors.grey),
